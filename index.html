@@ -1,0 +1,721 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <!-- AOS Animation Library -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Theme Toggle Button -->
+    <button id="theme-toggle" class="btn btn-sm position-fixed top-0 end-0 mt-3 me-3 z-3">
+        <i class="bi bi-sun-fill theme-icon-light"></i>
+        <i class="bi bi-moon-fill theme-icon-dark"></i>
+    </button>
+
+    <!-- Header/Navbar -->
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#home">Portfolio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#skills">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#experience">Experience</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#portfolio">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero d-flex align-items-center">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6" data-aos="fade-right">
+                    <h1>Hello, I'm <span class="accent-text">Lakshmana sai</span></h1>
+                    <h2 class="mb-4">Professional Title + Intro</h2>
+                    <p class="lead mb-4"> Hi, I’m Lakshmana Sai Karumuri. I’m a Python Developer with a background in AI and Data Science. I currently work at Plumsoft, where I get to do what I love—build smart, practical solutions using tech. My experience spans projects in machine learning, image recognition, and full-stack development using tools like Python, Flask, Angular, and TensorFlow. I'm passionate about using technology to solve real-world problems and constantly push my skills to the next level.</p>
+                    <div class="hero-btns">
+                        <a href="#contact" class="btn btn-primary me-3">Get In Touch</a>
+                        <a href="#portfolio" class="btn btn-outline-secondary">View My Work</a>
+                    </div>
+                </div>
+                <div class="col-lg-6 text-center" data-aos="fade-left">
+                    <div class="hero-img">
+                        <img src="me4.jpg" alt="Professional portrait" class="img-fluid rounded-circle profile-img">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center mb-5" data-aos="fade-up">
+                    <h2 class="section-title">About Me</h2>
+                    <div class="section-divider"></div>
+                </div>
+            </div>
+            <div class="row align-items-center">
+                <div class="col-md-5 mb-4 mb-md-0" data-aos="fade-right">
+                    <div class="about-img">
+                        <img src="https://images.pexels.com/photos/1595385/pexels-photo-1595385.jpeg" alt="Working on computer" class="img-fluid rounded">
+                    </div>
+                </div>
+                <div class="col-md-7" data-aos="fade-left">
+                    <h3 class="mb-4">Professional Bio</h3>
+                    <p>Hi, I’m Lakshmana Sai Karumuri, a Python Developer with a solid foundation in Artificial Intelligence, Data Science, and Full-Stack Web Development. I hold a B.Tech in AI & Data Science and currently work at Plumsoft, where I contribute to building smart, scalable applications that solve real-world problems.
+
+My experience spans a variety of projects—from machine learning and image recognition to end-to-end web applications—leveraging technologies like Python, Flask, Angular, and TensorFlow.
+I’m passionate about using tech to create practical, data-driven solutions and am always eager to explore new challenges that help me grow as a developer and problem-solver.
+
+ </p>
+                    <div class="row mt-4">
+                        <div class="col-md-6 mb-3">
+                            <div class="d-flex align-items-center">
+                                <i class="bi bi-envelope-fill me-3 fs-4 accent-icon"></i>
+                                <div>
+                                    <h6 class="mb-0">Email</h6>
+                                    <p class="mb-0">lakshmanasai.karumuri2k22@gmail.com
+</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <div class="d-flex align-items-center">
+                                <i class="bi bi-geo-alt-fill me-3 fs-4 accent-icon"></i>
+                                <div>
+                                    <h6 class="mb-0">Location</h6>
+                                    <p class="mb-0">Miyapur,Hyderabad</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <div class="d-flex align-items-center">
+                                <i class="bi bi-briefcase-fill me-3 fs-4 accent-icon"></i>
+                                <div>
+                                    <h6 class="mb-0">Experience</h6>
+                                    <p class="mb-0">6 Months</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <div class="d-flex align-items-center">
+                                <i class="bi bi-translate me-3 fs-4 accent-icon"></i>
+                                <div>
+                                    <h6 class="mb-0">Languages</h6>
+                                    <p class="mb-0">English, Hindi,Telugu</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                   <div class="mt-4">
+    <a href="https://github.com/lakshmanasai5421/portifilo/blob/main/resume%20pd%20(1).pdf" class="btn btn-primary" download>Download CV</a>
+</div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section-padding bg-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center mb-5" data-aos="fade-up">
+                    <h2 class="section-title">My Skills</h2>
+                    <div class="section-divider"></div>
+                </div>
+            </div>
+            <div class="row">
+    <div class="col-lg-6" data-aos="fade-right">
+        <h3 class="mb-4">Technical Skills</h3>
+
+        <!-- Programming Languages -->
+        <div class="skill-item mb-4">
+            <div class="d-flex justify-content-between">
+                <h6>Python</h6>
+                <span>90%</span>
+            </div>
+            <div class="progress">
+                <div class="progress-bar" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+        </div>
+        
+        <div class="skill-item mb-4">
+            <div class="d-flex justify-content-between">
+                <h6>PHP</h6>
+                <span>80%</span>
+            </div>
+            <div class="progress">
+                <div class="progress-bar" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+        </div>
+        <div class="skill-item mb-4">
+            <div class="d-flex justify-content-between">
+                <h6>JavaScript</h6>
+                <span>85%</span>
+            </div>
+            <div class="progress">
+                <div class="progress-bar" role="progressbar" style="width: 85%" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+        </div>
+        <div class="skill-item mb-4">
+            <div class="d-flex justify-content-between">
+                <h6>SQL</h6>
+                <span>85%</span>
+            </div>
+            <div class="progress">
+                <div class="progress-bar" role="progressbar" style="width: 85%" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+        </div>
+        <div class="skill-item mb-4">
+            <div class="d-flex justify-content-between">
+                <h6>R</h6>
+                <span>70%</span>
+            </div>
+            <div class="progress">
+                <div class="progress-bar" role="progressbar" style="width: 70%" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+        </div>
+
+        <!-- AI & Data Science -->
+        <div class="skill-item mb-4">
+            <div class="d-flex justify-content-between">
+                <h6>Machine Learning</h6>
+                <span>85%</span>
+            </div>
+            <div class="progress">
+                <div class="progress-bar" role="progressbar" style="width: 85%" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+        </div>
+           
+        <div class="skill-item mb-4">
+            <div class="d-flex justify-content-between">
+                <h6>Data Analysis & Visualization</h6>
+                <span>85%</span>
+            </div>
+            <div class="progress">
+                <div class="progress-bar" role="progressbar" style="width: 85%" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+        </div>
+
+        <!-- Frameworks & Libraries -->
+        <div class="skill-item mb-4">
+            <div class="d-flex justify-content-between">
+                <h6>Flask</h6>
+                <span>80%</span>
+            </div>
+            <div class="progress">
+                <div class="progress-bar" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+        </div>
+        <div class="skill-item mb-4">
+            <div class="d-flex justify-content-between">
+                <h6>TensorFlow</h6>
+                <span>75%</span>
+            </div>
+            <div class="progress">
+                <div class="progress-bar" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+        </div>
+        <div class="skill-item mb-4">
+            <div class="d-flex justify-content-between">
+                <h6>Scikit-learn</h6>
+                <span>80%</span>
+            </div>
+            <div class="progress">
+                <div class="progress-bar" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+        </div>
+        <div class="skill-item mb-4">
+            <div class="d-flex justify-content-between">
+                <h6>Pandas / NumPy</h6>
+                <span>85%</span>
+            </div>
+            <div class="progress">
+                <div class="progress-bar" role="progressbar" style="width: 85%" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+        </div>
+        <div class="skill-item mb-4">
+            <div class="d-flex justify-content-between">
+                <h6>Matplotlib / Seaborn</h6>
+                <span>80%</span>
+            </div>
+            <div class="progress">
+                <div class="progress-bar" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+        </div>
+
+        <!-- Web Development -->
+        <div class="skill-item mb-4">
+            <div class="d-flex justify-content-between">
+                <h6>Angular</h6>
+                <span>80%</span>
+            </div>
+            <div class="progress">
+                <div class="progress-bar" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+        </div>
+        <div class="skill-item mb-4">
+            <div class="d-flex justify-content-between">
+                <h6>HTML / CSS</h6>
+                <span>90%</span>
+            </div>
+            <div class="progress">
+                <div class="progress-bar" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+        </div>
+    </div>
+</div>
+
+                <div class="col-lg-6" data-aos="fade-left">
+                    <h3 class="mb-4">Professional Skills</h3>
+                    <div class="row">
+                        <div class="col-6 col-md-4 mb-4">
+                            <div class="skill-card text-center p-4">
+                                <i class="bi bi-people-fill fs-1 mb-3 accent-icon"></i>
+                                <h5>Teamwork</h5>
+                            </div>
+                        </div>
+                        <div class="col-6 col-md-4 mb-4">
+                            <div class="skill-card text-center p-4">
+                                <i class="bi bi-lightbulb-fill fs-1 mb-3 accent-icon"></i>
+                                <h5>Creativity</h5>
+                            </div>
+                        </div>
+                        <div class="col-6 col-md-4 mb-4">
+                            <div class="skill-card text-center p-4">
+                                <i class="bi bi-graph-up fs-1 mb-3 accent-icon"></i>
+                                <h5>Analytics</h5>
+                            </div>
+                        </div>
+                        <div class="col-6 col-md-4 mb-4">
+                            <div class="skill-card text-center p-4">
+                                <i class="bi bi-clock-fill fs-1 mb-3 accent-icon"></i>
+                                <h5>Time Management</h5>
+                            </div>
+                        </div>
+                        <div class="col-6 col-md-4 mb-4">
+                            <div class="skill-card text-center p-4">
+                                <i class="bi bi-chat-dots-fill fs-1 mb-3 accent-icon"></i>
+                                <h5>Communication</h5>
+                            </div>
+                        </div>
+                        <div class="col-6 col-md-4 mb-4">
+                            <div class="skill-card text-center p-4">
+                                <i class="bi bi-puzzle-fill fs-1 mb-3 accent-icon"></i>
+                                <h5>Problem Solving</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center mb-5" data-aos="fade-up">
+                    <h2 class="section-title">Experience & Education</h2>
+                    <div class="section-divider"></div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-6 mb-5 mb-lg-0" data-aos="fade-right">
+                    <h3 class="mb-4">Work Experience</h3>
+                    <div class="timeline">
+                        <div class="timeline-item" data-aos="fade-up">
+                            <div class="timeline-marker"></div>
+                            <div class="timeline-content">
+                                <h4>Python Developer Intern</h4>
+                                <p class="timeline-date"><i class="bi bi-calendar-event me-2"></i>2025/JAN - Present</p>
+                                <p class="timeline-company"><i class="bi bi-building me-2"></i> Plumsoft</p>
+                                <p>During my internship as a Python Developer at Plumsoft, I developed and integrated APIs using Flask and PHP, contributing to the creation of reliable and high-performing backend systems that ensured smooth application functionality.</p>
+                            </div>
+                        </div>
+                        <div class="timeline-item" data-aos="fade-up" data-aos-delay="100">
+                            <div class="timeline-marker"></div>
+                            <div class="timeline-content">
+                                <h4> Front-End Development (Angular)</h4>
+                                <p class="timeline-date"><i class="bi bi-calendar-event me-2"></i>2024/JUNE - 2024/JULY</p>
+                                <p class="timeline-company"><i class="bi bi-building me-2"></i>vmtspharmasoftware</p>
+                                <p>As part of this internship, I contributed to enhancing the Tour of Heroes application using Angular. I implemented key features such as user authentication and route protection using Angular services and guards, ensuring secure login and smooth navigation throughout the app.</p>
+                            </div>
+                        </div>
+                        <div class="timeline-item" data-aos="fade-up" data-aos-delay="200">
+                            <div class="timeline-marker"></div>
+                            <div class="timeline-content">
+                                <h4> Artificial Intelligence internship
+</h4>
+                                <p class="timeline-date"><i class="bi bi-calendar-event me-2"></i>2023/JULY - 2023/AUG</p>
+                                <p class="timeline-company"><i class="bi bi-building me-2"></i> Coincent</p>
+                                <p>During this internship, I worked on projects focused on landmark detection and news classification. My primary responsibilities involved developing and optimizing machine learning models using TensorFlow, with an emphasis on improving prediction accuracy and overall model performance.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6" data-aos="fade-left">
+                   
+                        <div class="timeline-item" data-aos="fade-up" data-aos-delay="100">
+                            <div class="timeline-marker"></div>
+                            <div class="timeline-content">
+                                <h4> BTech in Artificial Intelligence and Data Science</h4>
+                                <p class="timeline-date"><i class="bi bi-calendar-event me-2"></i>2021 - 2025</p>
+                                <p class="timeline-company"><i class="bi bi-buildings me-2"></i> VKR VNB & AGK COLLEGE OF ENGINEERING</p>
+                                <p>I earned my Bachelor’s degree in Artificial Intelligence and Data Science, where I built a solid foundation in machine learning, data analytics, and software development. I worked on hands-on projects using tools like Python, R, SQL, and Angular to solve real-world problems with data-driven solutions.</p>
+                            </div>
+                        </div>
+                        <div class="timeline-item" data-aos="fade-up" data-aos-delay="200">
+                            <div class="timeline-marker"></div>
+                            <div class="timeline-content">
+                                <h4>Certifications</h4>
+                                <p class="timeline-date"><i class="bi bi-calendar-event me-2"></i>2025/JAN</p>
+                                <p>2025 Master class on Data Science using Python A-Z for ML on udemy.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <!-- Portfolio Section -->
+<section id="portfolio" class="section-padding bg-light">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 text-center mb-5" data-aos="fade-up">
+        <h2 class="section-title">My Portfolio</h2>
+        <div class="section-divider"></div>
+      </div>
+    </div>
+    <div class="row mb-4">
+      <div class="col-12 text-center">
+        <div class="portfolio-filters" data-aos="fade-up">
+          <button class="btn btn-outline-primary me-2 mb-2 active" data-filter="*">All</button>
+          <button class="btn btn-outline-primary me-2 mb-2" data-filter=".web">Python Development</button>
+          <button class="btn btn-outline-primary me-2 mb-2" data-filter=".app">Data Analysis</button>
+          <button class="btn btn-outline-primary mb-2" data-filter=".other">Data Science</button>
+          <button class="btn btn-outline-primary me-2 mb-2" data-filter=".frontend">Front-end</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="row portfolio-grid">
+
+        <!-- Data Science -->
+      <div class="col-md-6 col-lg-4 mb-4 portfolio-item other" data-aos="zoom-in">
+        <div class="portfolio-card">
+          <img src="https://www.damcogroup.com/wp-content/uploads/2023/10/ai-blog-thumb.jpg" alt="Stock Prediction" class="img-fluid">
+          <div class="portfolio-overlay">
+            <div class="portfolio-info">
+              <h4>Smart Stock Predictions with ML</h4>
+              <p>ML, ARIMA, LSTM</p>
+              <a href="https://github.com/lakshmanasai5421/Smart-Stock-Predictions-with-ML" class="btn btn-sm btn-primary mt-2" target="_blank">View Details</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+
+
+      <!-- Python Development -->
+      <div class="col-md-6 col-lg-4 mb-4 portfolio-item web" data-aos="zoom-in">
+        <div class="portfolio-card">
+          <img src="https://miro.medium.com/v2/resize:fit:1200/1*Lxa8eW-96MEQLfmiXGOLRQ.jpeg" alt="Fake News" class="img-fluid">
+          <div class="portfolio-overlay">
+            <div class="portfolio-info">
+              <h4>Fake News Identification</h4>
+              <p>Text Classification using ML</p>
+              <a href="https://github.com/lakshmanasai5421/NEWS-CLASSIFICATION" class="btn btn-sm btn-primary mt-2" target="_blank">View Details</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-lg-4 mb-4 portfolio-item web" data-aos="zoom-in" data-aos-delay="100">
+        <div class="portfolio-card">
+          <img src="https://kartra.com/wp-content/uploads/2025/01/appointment-hero.webp" alt="Smart Scheduler" class="img-fluid">
+          <div class="portfolio-overlay">
+            <div class="portfolio-info">
+              <h4>Smart Appointment Scheduler</h4>
+              <p>Automated Appointment System</p>
+              <a href="https://github.com/lakshmanasai5421/-Smart-Appointment-Scheduler-with-Voice-Input-and-Google-Calendar-Integration-" class="btn btn-sm btn-primary mt-2" target="_blank">View Details</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-lg-4 mb-4 portfolio-item web" data-aos="zoom-in" data-aos-delay="200">
+        <div class="portfolio-card">
+          <img src="https://www.mastersindia.co/_next/image/?url=https%3A%2F%2Fcdn.mastersindia.co%2Fwebsite%2Fapi-pages%2FInvoice%2Bocr%2BMobile.png&w=640&q=75" alt="OCR Text" class="img-fluid">
+          <div class="portfolio-overlay">
+            <div class="portfolio-info">
+              <h4>OCR-based Text & Image Extraction API</h4>
+              <p>Image Processing and OCR</p>
+              <a href="https://github.com/lakshmanasai5421/OCR-Based-Text-Extraction-API-Using-Flask" class="btn btn-sm btn-primary mt-2" target="_blank">View Details</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-lg-4 mb-4 portfolio-item web" data-aos="zoom-in">
+        <div class="portfolio-card">
+          <img src="https://www.pdfgear.com/pdf-editor-reader/img/pdf-highlighter-1.png" alt="PDF Summary" class="img-fluid">
+          <div class="portfolio-overlay">
+            <div class="portfolio-info">
+              <h4>Smart PDF Highlighter & Summary Generator</h4>
+              <p>PDF Processing with Python</p>
+              <a href="https://github.com/lakshmanasai5421/Smart-PDF-Highlighter-Keyword-Summary-Generator" class="btn btn-sm btn-primary mt-2" target="_blank">View Details</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Data Analysis -->
+      <div class="col-md-6 col-lg-4 mb-4 portfolio-item app" data-aos="zoom-in">
+        <div class="portfolio-card">
+          <img src="https://i.ytimg.com/vi/9a14ivAusXA/maxresdefault.jpg" alt="Zomato Analysis" class="img-fluid">
+          <div class="portfolio-overlay">
+            <div class="portfolio-info">
+              <h4>Zomato Data Analysis</h4>
+              <p>EDA using Python & Pandas</p>
+              <a href="https://github.com/lakshmanasai5421/Zomato-Data-Analysis-Using-Python-" class="btn btn-sm btn-primary mt-2" target="_blank">View Details</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-lg-4 mb-4 portfolio-item app" data-aos="zoom-in" data-aos-delay="100">
+        <div class="portfolio-card">
+          <img src="https://static.wixstatic.com/media/f9980f_168e3ee2b96a46b3913a418fec3b8e14~mv2.png/v1/fill/w_1000,h_563,al_c,q_90,usm_0.66_1.00_0.01/f9980f_168e3ee2b96a46b3913a418fec3b8e14~mv2.png" alt="Iris Flower Classification" class="img-fluid">
+          <div class="portfolio-overlay">
+            <div class="portfolio-info">
+              <h4>Iris Flower Classification</h4>
+              <p>ML Classification Project</p>
+              <a href="https://github.com/lakshmanasai5421/Iris-Flower-Classification" class="btn btn-sm btn-primary mt-2" target="_blank">View Details</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      
+
+      <!-- Frontend -->
+      <div class="col-md-6 col-lg-4 mb-4 portfolio-item frontend" data-aos="zoom-in">
+        <div class="portfolio-card">
+          <img src="https://yt3.googleusercontent.com/_VY4p69acTeU9zqJ_de48rV3hg7fWZ5Domio5E0GDN87RTyu8YBxmifEhX2Vn8g06HrAgkNsow=s900-c-k-c0x00ffffff-no-rj" alt="Smart Fixers" class="img-fluid">
+          <div class="portfolio-overlay">
+            <div class="portfolio-info">
+              <h4>Smart Fixers</h4>
+              <p>Frontend Service App</p>
+              <a href="https://github.com/lakshmanasai5421/Smart-Fixers" class="btn btn-sm btn-primary mt-2" target="_blank">View Details</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-lg-4 mb-4 portfolio-item frontend" data-aos="zoom-in">
+        <div class="portfolio-card">
+          <img src="https://repository-images.githubusercontent.com/569268304/e162d6f8-5b0c-41f5-8f09-ba75752fe02b" alt="Portfolio Website" class="img-fluid">
+          <div class="portfolio-overlay">
+            <div class="portfolio-info">
+              <h4>Portfolio Website</h4>
+              <p>Personal Portfolio in HTML/CSS/JS</p>
+              <a href="https://github.com/lakshmanasai5421/portifilo" class="btn btn-sm btn-primary mt-2" target="_blank">View Details</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center mb-5" data-aos="fade-up">
+                    <h2 class="section-title">Get In Touch</h2>
+                    <div class="section-divider"></div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-5 mb-5 mb-lg-0" data-aos="fade-right">
+                    <h3 class="mb-4">Contact Information</h3>
+                    
+                    <div class="contact-info mb-4">
+                        <div class="d-flex align-items-center mb-3">
+                            <div class="contact-icon-box me-3">
+                                <i class="bi bi-geo-alt-fill"></i>
+                            </div>
+                            <div>
+                                <h5 class="mb-0">Location</h5>
+                                <p class="mb-0">Miyapur,Hyder</p>
+                            </div>
+                        </div>
+                        <div class="d-flex align-items-center mb-3">
+                            <div class="contact-icon-box me-3">
+                                <i class="bi bi-envelope-fill"></i>
+                            </div>
+                            <div>
+                                <h5 class="mb-0">Email</h5>
+                                <p class="mb-0">lakshmanasai.karumuri2k22@gmail.com
+</p>
+                            </div>
+                        </div>
+                        <div class="d-flex align-items-center mb-3">
+                            <div class="contact-icon-box me-3">
+                                <i class="bi bi-telephone-fill"></i>
+                            </div>
+                            <div>
+                                <h5 class="mb-0">Phone</h5>
+                                <p class="mb-0">+91 9398175790</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <h5 class="mb-3">Follow Me</h5>
+                        <a href="https://www.linkedin.com/in/lakshmana-sai-karumuri-816538265/" class="social-link" target="_blank"><i class="bi bi-linkedin"></i></a>
+                        <a href="https://github.com/lakshmanasai5421/" class="social-link" target="_blank"><i class="bi bi-github"></i></a>
+                        <a href="https://x.com/KarumuriLa61694" class="social-link" target="_blank" rel="noopener noreferrer">
+  <i class="bi bi-twitter"></i>
+</a>
+
+                        <a href="https://www.instagram.com/lakshmana_sai_/" class="social-link" target="_blank"><i class="bi bi-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-7" data-aos="fade-left">
+                    <div class="contact-form-wrapper">
+                        <h3 class="mb-4">Send Me a Message</h3>
+                        <form id="contactForm">
+                            <div class="row">
+                                <div class="col-md-6 mb-3">
+                                    <div class="form-floating">
+                                        <input type="text" class="form-control" id="name" placeholder="Your Name" required>
+                                        <label for="name">Your Name</label>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 mb-3">
+                                    <div class="form-floating">
+                                        <input type="email" class="form-control" id="email" placeholder="Your Email" required>
+                                        <label for="email">Your Email</label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="mb-3">
+                                <div class="form-floating">
+                                    <input type="text" class="form-control" id="subject" placeholder="Subject" required>
+                                    <label for="subject">Subject</label>
+                                </div>
+                            </div>
+                            <div class="mb-3">
+                                <div class="form-floating">
+                                    <textarea class="form-control" id="message" placeholder="Your Message" style="height: 150px" required></textarea>
+                                    <label for="message">Your Message</label>
+                                </div>
+                            </div>
+                            <div class="text-end">
+                                <button type="submit" class="btn btn-primary">Send Message</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer py-4">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6 text-center text-md-start">
+                    <p class="mb-0">&copy; 2025 Lakshmana S. All rights reserved.</p>
+                </div>
+                <div class="col-md-6 text-center text-md-end mt-3 mt-md-0">
+                    <a href="#home" class="btn btn-outline-light back-to-top">
+                        <i class="bi bi-arrow-up"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Portfolio Modals -->
+    <!-- Portfolio Modal 1 -->
+    <div class="modal fade" id="portfolioModal1" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Web Project 1</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-md-6 mb-4 mb-md-0">
+                            <img src="https://images.pexels.com/photos/326503/pexels-photo-326503.jpeg" alt="Project 1" class="img-fluid rounded">
+                        </div>
+                        <div class="col-md-6">
+                            <h4>Project Details</h4>
+                            <p class="mb-2"><strong>Client:</strong> Client Name</p>
+                            <p class="mb-2"><strong>Category:</strong> Web Design</p>
+                            <p class="mb-2"><strong>Date:</strong> January 2023</p>
+                            <p class="mb-4">Detailed description of the project, including challenges faced, technologies used, and solutions implemented. This was a responsive website built using HTML, CSS, and JavaScript.</p>
+                            <h5>Key Features:</h5>
+                            <ul>
+                                <li>Responsive Design</li>
+                                <li>Interactive Elements</li>
+                                <li>Optimized Performance</li>
+                                <li>SEO Implementation</li>
+                            </ul>
+                            <a href="#" class="btn btn-primary mt-3" target="_blank">Visit Website</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Additional modals would be similar but with different content -->
+
+    <!-- Bootstrap JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- AOS Animation Library -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- Custom JavaScript -->
+    <script src="js/script.js"></script>
+</body>
+</html>
